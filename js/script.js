@@ -11,6 +11,8 @@ $(function() {
 
     userTyped = userTyped.sort();
 
+    $(".list").hide();
+
 
     userTyped.forEach(function (lineItem) {
       $("#groceries-list").append("<li>" + lineItem + "</li>");
